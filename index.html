@@ -28,6 +28,40 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-canvas-2" class="article article-type-post" itemscope itemprop="blogPost">
+  
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/08/19/canvas-2/">canvas入门</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2017/08/19/canvas-2/" class="article-date">
+  <time datetime="2017-08-19T08:50:00.000Z" itemprop="datePublished">2017-08-19</time>
+</a>
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="接上文，刮刮乐"><a href="#接上文，刮刮乐" class="headerlink" title="接上文，刮刮乐"></a>接上文，刮刮乐</h3>
+      
+
+      
+        
+    </div>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-canvas-1" class="article article-type-post" itemscope itemprop="blogPost">
   
   <div class="article-inner">
@@ -36,7 +70,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/19/canvas-1/">canvas如何做动画</a>
+      <a class="article-title" href="/2017/08/19/canvas-1/">canvas介绍</a>
     </h1>
   
 
@@ -69,7 +103,11 @@
 </ul>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">"300"</span> <span class="attr">height</span>=<span class="string">"300"</span>&gt;</span>我是canvas君！<span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></div></pre></td></tr></table></figure>
 <h3 id="获取绘制环境"><a href="#获取绘制环境" class="headerlink" title="获取绘制环境"></a>获取绘制环境</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> oCanvas = <span class="built_in">document</span>.getElementById(<span class="string">"iCanvas"</span>);</div><div class="line"></div><div class="line">       <span class="comment">// 我是canvas的绘图环境，我的尺寸和canvas指定的尺寸一致</span></div><div class="line">       <span class="comment">// tip：是指定尺寸而不是样式尺寸</span></div><div class="line">       <span class="comment">// 通过canvas的getContext方法来获取我。</span></div><div class="line">       <span class="comment">// canvas传给我的参数是“2d”，表明我的绘图环境是2d</span></div><div class="line">       <span class="comment">// 那有没有“3d”呢？答案是：没有！！！惊不惊喜，意不意外</span></div><div class="line">       <span class="comment">// 其实参数可以写成：“webgl”，这个是一个三维的绘图环境</span></div><div class="line">      <span class="keyword">var</span> ctx = oCanvas.getContext(<span class="string">"2d"</span>);</div></pre></td></tr></table></figure>
-
+        
+          <p class="article-more-link">
+            <a href="/2017/08/19/canvas-1/#more">More...</a>
+          </p>
+        
       
 
       
